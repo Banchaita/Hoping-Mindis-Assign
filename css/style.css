@@ -1,0 +1,102 @@
+*{
+    padding: 1px;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {margin: 0; height: 100%; overflow-y: hidden;}
+
+/* Header  */
+.header-area header{
+    border: 2px solid ;
+    background: #032555;
+    color: white;
+}
+.header-area p{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.header-area .header-nav{
+   display: flex;
+   justify-content: center;
+}
+.header-area .header-nav li{
+    list-style: none;
+    margin-left: .4rem;
+}
+.header-area .header-nav li a{
+   color: #5FC9CE;
+}
+
+/* About part */
+.about-area .about-nev{
+    display: flex;
+}
+.about-area .about-nev li{
+    margin-left: 1rem;
+    list-style: none;
+}
+.about-area .about-nev li a{
+    color: #F99DA8;
+}
+.about-area .about-title, .Skills-title, .qualification-title, .project-title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about-area img{
+    width: 200px;
+    height: 200px;
+    margin-left: .3rem;
+}
+
+
+.about-text p:nth-child(2){
+    font-style: italic;
+}
+
+.about-text, .Skills-text, .qualification-text, .project-text  p {
+    font-size: 1.2rem;
+    padding: .3rem;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+.footer{
+    border:2px solid;
+    background-color: #032555;
+    color: white;
+}
+
+.footer p{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.footer .footer-nav{
+    display: flex;
+    justify-content: center;
+ }
+ .footer .footer-nav li{
+     list-style: none;
+     margin-left: .4rem;
+ }
+ footer .footer-nav li a{
+    color: #5FC9CE;
+ }
+
+
+
+
+
